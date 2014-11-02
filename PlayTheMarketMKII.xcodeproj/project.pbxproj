@@ -15,6 +15,7 @@
 		A73525981A05E18B00371E8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73525961A05E18B00371E8A /* LaunchScreen.xib */; };
 		A73525A41A05E18B00371E8A /* PlayTheMarketMKIITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73525A31A05E18B00371E8A /* PlayTheMarketMKIITests.m */; };
 		A73525AF1A05E40100371E8A /* YQL.m in Sources */ = {isa = PBXBuildFile; fileRef = A73525AE1A05E40100371E8A /* YQL.m */; };
+		A73525B21A05E4DC00371E8A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A73525B11A05E4DC00371E8A /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		A73525A31A05E18B00371E8A /* PlayTheMarketMKIITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayTheMarketMKIITests.m; sourceTree = "<group>"; };
 		A73525AD1A05E40100371E8A /* YQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQL.h; sourceTree = "<group>"; };
 		A73525AE1A05E40100371E8A /* YQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQL.m; sourceTree = "<group>"; };
+		A73525B01A05E4DC00371E8A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		A73525B11A05E4DC00371E8A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		A73525861A05E18B00371E8A /* PlayTheMarketMKII */ = {
 			isa = PBXGroup;
 			children = (
+				A73525B01A05E4DC00371E8A /* Player.h */,
+				A73525B11A05E4DC00371E8A /* Player.m */,
 				A73525AD1A05E40100371E8A /* YQL.h */,
 				A73525AE1A05E40100371E8A /* YQL.m */,
 				A735258B1A05E18B00371E8A /* AppDelegate.h */,
@@ -228,6 +233,7 @@
 				A735258D1A05E18B00371E8A /* AppDelegate.m in Sources */,
 				A73525AF1A05E40100371E8A /* YQL.m in Sources */,
 				A735258A1A05E18B00371E8A /* main.m in Sources */,
+				A73525B21A05E4DC00371E8A /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
