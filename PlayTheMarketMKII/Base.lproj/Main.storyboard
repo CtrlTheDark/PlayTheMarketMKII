@@ -7,6 +7,7 @@
         <!--MenuView-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <viewController title="MenuView" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -19,7 +20,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="UVv-Ym-i5N" kind="modal" id="As2-CN-nyL"/>
+                                    <segue destination="hm1-af-kyk" kind="modal" id="As2-CN-nyL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WJz-Kl-zW2">
@@ -41,29 +42,19 @@
                     </view>
                     <navigationItem key="navigationItem" title="Main Menu" id="jUW-Yt-sXG"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1080" y="-662"/>
+            <point key="canvasLocation" x="-880" y="-1978"/>
         </scene>
-        <!--Ctrl Center-->
-        <scene sceneID="Gik-9P-fml">
+        <!--Brokerage-->
+        <scene sceneID="u8h-fm-HTp">
             <objects>
-                <viewController id="UVv-Ym-i5N" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0kR-Kg-RXC">
+                <viewController title="Brokerage" id="m0o-cl-V9M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4OX-ny-bZl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tabBar contentMode="scaleToFill" id="oJn-fm-cVi">
-                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="Brokerage" id="mhw-ah-3Z3"/>
-                                    <tabBarItem title="My Portfolio" id="t9O-P9-Uv9"/>
-                                </items>
-                            </tabBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ctrl Center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DVX-r2-t1w">
-                                <rect key="frame" x="118" y="20" width="84" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brokerage" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qhb-AT-oRN">
+                                <rect key="frame" x="121" y="30" width="79" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -72,12 +63,51 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Brokerage" id="dq8-0A-qng"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FOz-LH-WBv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="-2543"/>
+        </scene>
+        <!--Ctrl Center-->
+        <scene sceneID="Gik-9P-fml">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Pf-ns-9Zz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="UVv-Ym-i5N" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0kR-Kg-RXC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ctrl Center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DVX-r2-t1w">
+                                <rect key="frame" x="118" y="20" width="84" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cash Available:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Br0-gl-s1I">
+                                <rect key="frame" x="38" y="63" width="118" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Portfilio Worth:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4mv-vw-4F3">
+                                <rect key="frame" x="40" y="107" width="114" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="CTRL" id="Kl9-Nr-H0K"/>
                     <navigationItem key="navigationItem" title="Ctrl Center" id="hXS-xG-Uwq"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Pf-ns-9Zz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-200" y="-1102"/>
+            <point key="canvasLocation" x="858" y="-1455"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="58l-X4-baF">
@@ -93,7 +123,78 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H4X-lr-YAB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-892" y="-1438"/>
+            <point key="canvasLocation" x="-1402" y="-1994"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="gLz-qt-jcc">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bkP-A9-Ma4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hm1-af-kyk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="C4Q-IW-wKN">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="UVv-Ym-i5N" kind="relationship" relationship="viewControllers" id="hun-lb-14s"/>
+                        <segue destination="gmZ-tM-64y" kind="relationship" relationship="viewControllers" id="nXa-K5-Bbj"/>
+                        <segue destination="m0o-cl-V9M" kind="relationship" relationship="viewControllers" id="R9e-a2-nBu"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="-336" y="-2006"/>
+        </scene>
+        <!--Portfolio-->
+        <scene sceneID="8d6-YL-zOt">
+            <objects>
+                <viewController title="Portfolio" id="gmZ-tM-64y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yI9-bZ-jY3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Portfolio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ksR-mI-jeV">
+                                <rect key="frame" x="128" y="39" width="65" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Shares" textAlignment="center" minimumFontSize="17" id="gLj-U3-egr">
+                                <rect key="frame" x="112" y="261" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Symbol" textAlignment="center" minimumFontSize="17" id="adE-Ke-vXj">
+                                <rect key="frame" x="112" y="196" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="88f-ky-lrV">
+                                <rect key="frame" x="139" y="401" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" id="x6w-GO-SPY">
+                                <rect key="frame" x="99" y="324" width="123" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Buy"/>
+                                    <segment title="Sell"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Portfolio" id="Riw-3s-2oj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="29M-ir-tcY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1379" y="-2085"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
