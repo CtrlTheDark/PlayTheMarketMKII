@@ -14,6 +14,7 @@
 		A73525951A05E18B00371E8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73525941A05E18B00371E8A /* Images.xcassets */; };
 		A73525981A05E18B00371E8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73525961A05E18B00371E8A /* LaunchScreen.xib */; };
 		A73525A41A05E18B00371E8A /* PlayTheMarketMKIITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73525A31A05E18B00371E8A /* PlayTheMarketMKIITests.m */; };
+		A73525AF1A05E40100371E8A /* YQL.m in Sources */ = {isa = PBXBuildFile; fileRef = A73525AE1A05E40100371E8A /* YQL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A735259D1A05E18B00371E8A /* PlayTheMarketMKIITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayTheMarketMKIITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73525A21A05E18B00371E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A73525A31A05E18B00371E8A /* PlayTheMarketMKIITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayTheMarketMKIITests.m; sourceTree = "<group>"; };
+		A73525AD1A05E40100371E8A /* YQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQL.h; sourceTree = "<group>"; };
+		A73525AE1A05E40100371E8A /* YQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		A73525861A05E18B00371E8A /* PlayTheMarketMKII */ = {
 			isa = PBXGroup;
 			children = (
+				A73525AD1A05E40100371E8A /* YQL.h */,
+				A73525AE1A05E40100371E8A /* YQL.m */,
 				A735258B1A05E18B00371E8A /* AppDelegate.h */,
 				A735258C1A05E18B00371E8A /* AppDelegate.m */,
 				A735258E1A05E18B00371E8A /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				A73525901A05E18B00371E8A /* ViewController.m in Sources */,
 				A735258D1A05E18B00371E8A /* AppDelegate.m in Sources */,
+				A73525AF1A05E40100371E8A /* YQL.m in Sources */,
 				A735258A1A05E18B00371E8A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
